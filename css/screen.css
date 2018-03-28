@@ -182,18 +182,26 @@ a:focus {
     color: #3E3EA8;
 }
 
+form {
+    font-weight: 100;
+}
+
 input[type=text] {
     border: none;
     border-bottom: 1px solid white;
     width: 100%;
     height: 62px;
     background-color: #5051DB;
+    color: white;
 }
 
-input[type]::placeholder,
+input::placeholder,
 :-ms-input-placeholder,
-::-ms-input-placeholder {
-    color: whitetype
+::-ms-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder {
+    color: white;
+    opacity: 1.
 }
 
 /*------------------------------------*\

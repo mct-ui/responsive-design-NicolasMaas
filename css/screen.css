@@ -373,6 +373,7 @@ a:focus {
     .c-header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .c-header__nav {

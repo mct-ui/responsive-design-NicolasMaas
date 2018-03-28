@@ -182,6 +182,20 @@ a:focus {
     color: #3E3EA8;
 }
 
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 62px;
+    background-color: #5051DB;
+}
+
+input[type]::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+    color: whitetype
+}
+
 /*------------------------------------*\
   #OBJECTS
 \*------------------------------------*/
@@ -206,6 +220,10 @@ a:focus {
 
 .o-row--neutral-x-light {
     background-color: #F7F7FA;
+}
+
+.o-row--neutral-base {
+    background-color: #5051DB;
 }
 
 @media (min-width: 768px) {
@@ -615,6 +633,10 @@ a:focus {
 
 .u-color-primary-dark {
     color: #3E3EA8 !important;
+}
+
+.u-color-primary-light {
+    color: #FFFFFF !important;
 }
 
 /*

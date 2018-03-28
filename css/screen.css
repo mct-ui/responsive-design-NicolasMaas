@@ -97,7 +97,6 @@ h1 {
     font-size: 36px;
     line-height: 48px;
     margin: 0 0 24px;
-    color: #5051db;
     font-weight: 400;
 }
 
@@ -574,12 +573,15 @@ a:focus {
 */
 
 .u-color-primary-light {
+    color: #7373F5 !important;
 }
 
 .u-color-primary-base {
+    color: #5051DB !important;
 }
 
 .u-color-primary-dark {
+    color: #3E3EA8 !important;
 }
 
 /*

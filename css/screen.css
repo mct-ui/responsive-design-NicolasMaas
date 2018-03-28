@@ -186,6 +186,15 @@ a:focus {
 \*------------------------------------*/
 
 /*
+    Objects: List
+    ---
+    Small reusable object to remove default list styling from lists
+*/
+
+.o-list {
+}
+
+/*
     Objects: Row
     ---
     Creates a horizontal row that stretches the viewport and adds padding around children
@@ -368,6 +377,34 @@ a:focus {
     }
 }
 
+/*
+    Component: Nav
+    ---
+    Main navigation of the site
+*/
+
+.c-nav {
+}
+
+.c-nav__link {
+}
+
+.c-nav__link,
+.c-nav__link:visited,
+.c-nav__link:active {
+}
+
+.c-nav__link:hover,
+.c-nav__link:focus {
+}
+
+@media (min-width: 768px) {
+    .c-nav__list {
+    }
+
+    .c-nav__link {
+    }
+}
 
 /*------------------------------------*\
   #UTILITIES

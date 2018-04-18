@@ -612,6 +612,19 @@ input::placeholder,
 }
 
 .c-link-cta::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    transform: scaleX(.5);
+    transform-origin: left;
+    background-color: #7373F5;
+    transition-property: width background-color;
+    transition-duration: .175s;
+    transition-timing-function: ease-in;
 }
 
 .c-link-cta:hover {
@@ -619,6 +632,8 @@ input::placeholder,
 }
 
 .c-link-cta:hover::after {
+    transform: scaleX(1);
+    background-color: #3E3EA8;
 }
 
 /*------------------------------------*\
